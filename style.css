@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 70vh;
+  height: 100vh;
   background-color: whitesmoke;
   display: grid;
   place-items: center;
@@ -30,15 +30,13 @@ button {
   --border-radius: 4px;
   width: 100%;
   max-width: 400px;
-  height: auto;
-  /* min-height: 500px; */
+  min-height: 200px;
   padding: 1.2rem;
   background: #2b304d;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  /* top:30px; */
 }
 
 form {
