@@ -25,9 +25,10 @@ button {
 .container {
   --border-radius: 6px;
   width: 100%;
-  max-width: 550px;
+  max-width: 450px;
   height: auto;
   min-height: 500px;
+  margin: 25px 50px;
   padding: 1.2rem;
   background: #2b304d;
   border-radius: 14px;
