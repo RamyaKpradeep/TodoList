@@ -12,6 +12,10 @@ body {
   display: grid;
   place-items: center;
   font-family: Poppins;
+  background-image: url("pexels-cottonbro-studio-3826686.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: crisp-edges;
 }
 
 button {
@@ -25,15 +29,19 @@ button {
 .container {
   --border-radius: 4px;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
-  min-height: 500px;
+  /* min-height: 500px; */
   padding: 1.2rem;
   background: #2b304d;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  background-image: url("pexels-anete-lusina-7256739.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: crisp-edges;
 }
 
 form {
